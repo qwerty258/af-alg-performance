@@ -1,0 +1,31 @@
+{
+    "test_files": [
+        "testdata/calgary"
+    ],
+    "enable_cpu_affinity": false,
+    "cpu_affinity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+    ],
+    "dump_compressed_data_as_file": false,
+    "print_header": false,
+    "test_data_multiplier": 1,
+    "thread_count": 1,
+    "cmd_buffer_count_in_kernel": 128000,
+    "block_size_in_bytes": 4096,
+    "deflate_window_size": 32768
+}
