@@ -3,11 +3,14 @@
 #include <stdint.h>
 #include <errno.h>
 #include <string.h>
+#include <unistd.h>
 #include <sys/socket.h>
 #include <linux/if_alg.h>
 
 int main(int argc, char *argv[])
 {
+    (void)argc;
+    (void)argv;
     int tfm_fd = socket(AF_ALG, SOCK_SEQPACKET, 0);
     if (-1 == tfm_fd)
     {
